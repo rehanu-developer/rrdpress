@@ -1,9 +1,9 @@
-# RRDPRESS - AI Search Narrative Management — Extracted Site
+# AI Narrative Control Services USA | RRD Press — Extracted Site
 
 > **Source:** https://rrdpress.framer.website/
-> **Extracted:** July 25, 2026
+> **Extracted:** July 28, 2026
 > **Tool:** Framer Site Extractor Chrome Extension
-> **Total files downloaded:** 397
+> **Total files downloaded:** 849
 
 ---
 
