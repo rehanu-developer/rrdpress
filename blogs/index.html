@@ -83,6 +83,41 @@
 <svg id="3416321359" display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M 6 0 C 9.314 0 12 2.686 12 6 L 12 13 L 8 13 L 8 6 C 8 4.895 7.105 4 6 4 C 4.895 4 4 4.895 4 6 L 4 13 L 0 13 L 0 6 C 0 2.686 2.686 0 6 0 Z" fill="transparent" height="13px" id="b4daiqhLm" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--js9iwy, 2)" stroke="var(--1m973uw, rgb(0,0,0))" transform="translate(10 8)" width="12px"></path><path d="M 0 12 L 0 0 L 4 0 L 4 12 Z" fill="transparent" height="12px" id="pjuCqz3_Y" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--js9iwy, 2)" stroke="var(--1m973uw, rgb(0,0,0))" transform="translate(2 9)" width="4px"></path><path d="M 0 2 C 0 0.895 0.895 0 2 0 C 3.105 0 4 0.895 4 2 C 4 3.105 3.105 4 2 4 C 0.895 4 0 3.105 0 2 Z" fill="transparent" height="4px" id="HFWFXDJPf" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--js9iwy, 2)" stroke="var(--1m973uw, rgb(0,0,0))" transform="translate(2 2)" width="4px"></path></svg>
 </div>
 	<!-- Start of bodyEnd -->
+    <script>
+    (() => {
+      const targetSlug = "how-to-sort-ai-art-out-of-google-search";
+      const targetHref = "./blogs/" + targetSlug;
+      const cardHtml = `<div class="ssr-variant"><div class="framer-afkkeb" data-framer-name="Cover Image"><div style="position:absolute;border-radius:inherit;corner-shape:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true"><img decoding="auto" width="1376" height="768" sizes="(min-width: 1200px) calc(max((min(100vw, 1120px) - 48px) / 3, 280px) - 18px), (max-width: 809.98px) calc(min(100vw, 1120px) - 18px), (min-width: 810px) and (max-width: 1199.98px) calc(max((min(100vw, 1120px) - 20px) / 2, 260px) - 18px)" srcset="assets/images/smart-ways-to-sort-ai-art-out-of-google-search-2.webp 512w,assets/images/smart-ways-to-sort-ai-art-out-of-google-search-3.webp 1024w,assets/images/smart-ways-to-sort-ai-art-out-of-google-search-1.webp 1376w" src="assets/images/smart-ways-to-sort-ai-art-out-of-google-search-1.webp" alt="Smart Ways to Sort AI Art Out of Google Search" style="display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover"></div></div></div><div class="framer-h5qmis" data-framer-name="Card Body"><div class="framer-sbapa0" data-framer-component-type="RichTextContainer" style="transform:none"><p class="framer-text framer-styles-preset-1opwqc3" data-styles-preset="LODmloz66" dir="auto"><time datetime="2026-07-26T00:00:00.000Z">Jul 26, 2026</time></p></div><div class="framer-i87v0m" data-framer-component-type="RichTextContainer" style="transform:none"><h3 class="framer-text framer-styles-preset-la5if8" data-styles-preset="oAKsGmd8E" dir="auto">Smart Ways to Sort AI Art Out of Google Search</h3></div><div class="framer-1ojnjvk" data-framer-component-type="RichTextContainer" style="transform:none"><p class="framer-text framer-styles-preset-15nzkar" data-styles-preset="IiafCf5NH" dir="auto" style="--framer-text-color:var(--token-9dfa1581-1998-447d-a038-74d52784ef0c)">Learn how to sort AI art out of Google Search and keep your image research cleaner, faster, and more reliable.</p></div><div class="framer-12kx26l" data-framer-name="Read Link"><div class="framer-1kog4zg" data-framer-component-type="RichTextContainer" style="transform:none"><p class="framer-text framer-styles-preset-1opwqc3" data-styles-preset="LODmloz66" dir="auto" style="--framer-text-color:var(--token-2e84cf48-34e2-4afe-9d59-c7a546631a59)">Read article</p></div></div></div>`;
+
+      const visible = (element) => {
+        if (!(element instanceof HTMLElement)) return false;
+        const rect = element.getBoundingClientRect();
+        const style = getComputedStyle(element);
+        return rect.width > 0 && rect.height > 0 && style.display !== "none" && style.visibility !== "hidden" && Number(style.opacity || 1) > 0;
+      };
+
+      const ensureSmartWaysCard = () => {
+        const grids = [...document.querySelectorAll('[data-framer-name="Blog Posts Grid"]')];
+        const grid = grids.find(visible) || grids[0];
+        if (!grid) return;
+        if ([...grid.querySelectorAll("a")].some((link) => (link.getAttribute("href") || "").includes(targetSlug))) return;
+
+        const card = document.createElement("a");
+        card.className = "framer-1ynklue framer-1o2toks";
+        card.setAttribute("data-border", "true");
+        card.setAttribute("data-framer-name", "Blog Card");
+        card.setAttribute("href", targetHref);
+        card.innerHTML = cardHtml;
+        grid.prepend(card);
+      };
+
+      addEventListener("load", ensureSmartWaysCard);
+      setTimeout(ensureSmartWaysCard, 400);
+      setTimeout(ensureSmartWaysCard, 1200);
+      setTimeout(ensureSmartWaysCard, 2500);
+      new MutationObserver(ensureSmartWaysCard).observe(document.getElementById("main") || document.body, { childList: true, subtree: true });
+    })();
+    </script>
     
     <!-- End of bodyEnd -->
 
