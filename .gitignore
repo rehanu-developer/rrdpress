@@ -1,0 +1,13 @@
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# AI session docs (not project source)
+.trae/
