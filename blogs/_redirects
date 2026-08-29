@@ -1,4 +1,5 @@
 # Netlify-style redirects for /blogs/<slug>
+# NOTE: This file is for Netlify (and similar hosts) only. Vercel reads vercel.json — keep them in sync.
 # This file is read by Netlify (and similar hosts) at deploy time.
 #
 # HONEST CAVEAT (2026-08-27):
