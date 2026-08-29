@@ -1,1 +1,12 @@
-{"rewrites":[{"source":"/(.*)","destination":"/index.html"}]}
+{
+  "rewrites": [
+    { "source": "/blogs", "destination": "/blogs/index.html" },
+    { "source": "/blogs/(.*)", "destination": "/blogs/$1/index.html" },
+    { "source": "/case-studies", "destination": "/casestudies/index.html" },
+    { "source": "/case-studies/(.*)", "destination": "/case-studies/$1/index.html" },
+    { "source": "/casestudies", "destination": "/casestudies/index.html" },
+    { "source": "/casestudies/(.*)", "destination": "/case-studies/$1/index.html" },
+    { "source": "/pricing", "destination": "/pricing/index.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
