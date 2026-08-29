@@ -1,0 +1,18 @@
+# Blog slug -> Framer CMS item ID map
+# Source: assets/cms/ilCWGDbpF-indexes-default-0.framercms (parsed 2026-08-27)
+# Confidence: high. The first 13 pairings in the index file are consistent and cover
+# all 13 unique blog slugs in the collection.
+
+XG97TgRzS	7-reasons-ai-transformation-is-a-problem-of-governance
+kS3Fs6pub	how-to-fix-negative-brand-sentiment-in-ai-successfully
+k98QbwJFZ	how-to-grow-ai-automation-agency-brand-awareness-2026
+b1BlsUUed	benefits-of-tracking-brand-mentions-across-10-ai-engines
+W1BHztdRP	enterprise-keyword-tracking
+FYwcmuGB1	brand-mentions-in-ai-search-results
+ZRrscArTd	improve-brand-visibility-in-ai-answer-engines
+FCeGwucnI	best-ways-to-track-brand-mentions-in-ai-search
+qgBil9VhY	brand-visibility-in-ai-search-engines
+FKk4PqWvt	ai-search-optimization-tools-for-your-business
+FvqKmJSTz	how-to-sort-ai-art-out-of-google-search
+NDy1L3wR4	free-ai-seo-tools
+hXA0l59Pe	ai-search-visibility-metrics-kpis

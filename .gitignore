@@ -1,0 +1,64 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Vercel
+.vercel/
+
+# Local helpers (not part of the deployed site)
+push-to-github.ps1
+run-push.ps1
+push-test.ps1
+check-preserved.ps1
+step1-download.ps1
+step2-init.ps1
+step3-commit.ps1
+step4-push.ps1
+step5-verify.ps1
+files-to-push.txt
+files-to-push-test.txt
+guide-reupload-repo.md
+
+# Node / build artifacts
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# OS temp / large binaries that don't belong in git
+*.tmp
+*.bak
+*.zip
+*.tar.gz
+
+# Additional helpers
+step1-download.ps1
+step2-init.ps1
+step2b-verify-ignore.ps1
+step3-commit.ps1
+step3b-fix-ignore.ps1
+step3c-cleanup.ps1
+step3d-commit.ps1
+step4-push.ps1
+step5-verify.ps1

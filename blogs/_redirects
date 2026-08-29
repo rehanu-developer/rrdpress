@@ -1,0 +1,38 @@
+# Netlify-style redirects for /blogs/<slug>
+# This file is read by Netlify (and similar hosts) at deploy time.
+#
+# HONEST CAVEAT (2026-08-27):
+# The export on disk only contains the blog LIST page (blogs/index.html) plus
+# the JS bundles and CMS data. It does NOT contain per-blog HTML pages like
+# /blogs/<slug>/index.html — those are missing because the extraction tool did
+# not capture them.
+#
+# A redirect alone CANNOT render a single blog post — when the user lands on
+# /blogs/<slug>, the browser must receive an HTML file that:
+#   1. Sets `data-framer-hydrate-v2` routeId to the blog-DETAIL routeId
+#      (currently unknown to us; case-studies detail uses routeId `vS7puIghp`)
+#   2. Sets pathVariables = {<blog-binding>: <slug>}
+#   3. Pre-renders the blog content via hydration
+#
+# What this redirect does (best-effort without a per-blog HTML file):
+# - Sends /blogs/<slug> -> /blogs/?slug=<slug>
+# - The list page will still render, not the single blog.
+# - It is a graceful "no 404" fallback, NOT a fix.
+#
+# The proper fix is to ask the Framer project's owner to re-export with
+# "Static HTML" enabled so each blog post becomes a real file.
+
+# Placeholder: keep these so anyone deploying to Netlify doesn't get 404s
+/blogs/7-reasons-ai-transformation-is-a-problem-of-governance   /blogs/?slug=7-reasons-ai-transformation-is-a-problem-of-governance   302
+/blogs/how-to-fix-negative-brand-sentiment-in-ai-successfully /blogs/?slug=how-to-fix-negative-brand-sentiment-in-ai-successfully 302
+/blogs/how-to-grow-ai-automation-agency-brand-awareness-2026  /blogs/?slug=how-to-grow-ai-automation-agency-brand-awareness-2026  302
+/blogs/benefits-of-tracking-brand-mentions-across-10-ai-engines /blogs/?slug=benefits-of-tracking-brand-mentions-across-10-ai-engines 302
+/blogs/enterprise-keyword-tracking                            /blogs/?slug=enterprise-keyword-tracking                       302
+/blogs/brand-mentions-in-ai-search-results                    /blogs/?slug=brand-mentions-in-ai-search-results               302
+/blogs/improve-brand-visibility-in-ai-answer-engines          /blogs/?slug=improve-brand-visibility-in-ai-answer-engines     302
+/blogs/best-ways-to-track-brand-mentions-in-ai-search         /blogs/?slug=best-ways-to-track-brand-mentions-in-ai-search   302
+/blogs/brand-visibility-in-ai-search-engines                  /blogs/?slug=brand-visibility-in-ai-search-engines             302
+/blogs/ai-search-optimization-tools-for-your-business         /blogs/?slug=ai-search-optimization-tools-for-your-business    302
+/blogs/how-to-sort-ai-art-out-of-google-search                /blogs/?slug=how-to-sort-ai-art-out-of-google-search           302
+/blogs/free-ai-seo-tools                                      /blogs/?slug=free-ai-seo-tools                                 302
+/blogs/ai-search-visibility-metrics-kpis                      /blogs/?slug=ai-search-visibility-metrics-kpis                 302

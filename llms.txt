@@ -1,0 +1,29 @@
+﻿# RRD Press
+
+> RRD Press (RRDPRESS LLC, United States) is an AI narrative control and PR/SEO agency. It helps brands control how AI tools (ChatGPT, Gemini, Perplexity, Google AI Overviews) and search engines describe, categorize, and surface them, using research-driven narrative engineering, editorial-style press writing, and distribution across 300+ trusted media outlets.
+
+RRD Press combines brand/competitor research, AI prompt testing, high-trust editorial press placements, and search/AI indexing optimization into a single system aimed at making brands "AI-visible" â€” i.e., recommended and cited by AI answer engines, not just ranked in traditional search.
+
+## Core pages
+
+- [Home](https://rrdpress.com/): Overview of AI Narrative Control services â€” narrative engineering, press distribution, search authority, media reach, AI indexing, and reputation management. Includes client logos, service breakdown, process explanation, testimonials, and FAQs.
+- [Pricing](https://rrdpress.com/pricing): Two plans â€” "Starter Authority" ($1,997/month, targets 3â€“5 brand/category queries, 900+ PR mentions on outlets like Yahoo Finance, Business Insider, MarketWatch, AP News) and "Custom Authority" (custom pricing, up to 20 queries/month, 1000+ PR mentions, advanced AI chatbot/search authority injection). Lists included deliverables: strategy call, AI prompt research, press writing, source extraction, authority roadmap, content placement, inclusion tracking, weekly reporting, direct WhatsApp/Slack support.
+- [Case Studies](https://rrdpress.com/casestudies): Overview of results (publications, customers, AI show-ups tracked) and links to individual client case studies. Notes that most client work is protected by NDA.
+- [Blogs](https://rrdpress.com/blogs): Articles on AI search visibility, SEO tools, and brand discoverability in AI systems.
+
+## Case studies
+
+- [Swanson Reed](https://rrdpress.com/case-studies/swanson-reed)
+- [Credit Armor](https://rrdpress.com/case-studies/credit-armor)
+- [YouTube Transcripts](https://rrdpress.com/case-studies/youtube-transcripts)
+- [Trex Case Study](https://rrdpress.com/case-studies/trex-casestudy)
+
+## Blog posts
+
+- [Best Free AI Tools for SEO Every Business Should Try](https://rrdpress.com/blogs/free-ai-seo-tools): Roundup of free AI SEO tools for businesses.
+- [How AI Search Visibility Metrics & KPIs Impact Your Brand](https://rrdpress.com/blogs/ai-search-visibility-metrics-kpis): Explains the KPIs that indicate whether ChatGPT and Google AI cite a brand.
+
+## Contact & booking
+
+- [Book a free audit / demo](https://cal.com/basit-rrdpress/30min): Calendar link to schedule a strategy call.
+- [LinkedIn](https://www.linkedin.com/company/rrd-press): Company LinkedIn page.
